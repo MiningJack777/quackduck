@@ -1,0 +1,62 @@
+QuackDuck Design Doc
+Balthazar James Ferguson
+Edit one (1) / creation: 12/13/2021
+-----------------------------------------------------------------------------------------------------------------------------
+
+Overview
+
+This language will only use letters, no numbers or special characters. Only standard English alphabet is allowed.
+All commands and numbers are only three (3) letters long
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+Numbers
+
+Numbers are defined by writing the number as a word, but they are only three (3) letters long
+
+zero (0) = zer
+one (1) = one
+two (2) = two
+three (3) = tre
+four (4) = fur
+five (5) = fiv
+six (6) = six
+seven (7) = svn
+eight (8) = eig
+nine (9) = nin
+
+In order to make more than single digit numbers a system is used.
+
+Decimal = dot (ex, fur dot two = 4.2 ) | In order to write more than one deciaml just keep writing numbers (ex, fur dot two one tre = 4.213)
+Tens place = ten (ex, two ten = 20)
+Hundreds place = hun (ex, tre hun = 300)
+Thousands place = tho (ex, fiv tho = 5000)
+
+These place values can be combined to form complex numbers. (Ex, fiv tho tre hun two ten one dot fur fiv six = 5321.456) 
+When a number is ten or larger the ones place value will always be zero unless it is defined otherwise.
+----------------------------------------------------------------------------------------------------------------------------------------
+
+Commands
+
+Comments are defined using two question marks. (ex, ??hello world xd 2) | This DOES accept numbers and special characters.
+Line ends are used, these are END (ex, var_name eql inputEND)
+
+Variables are defined like Python: 
+	var_name eql input | No spaces in name and only letters are accepted in the name. All characters are accepted in the value of the variable
+	
+To print something to log use: 
+	MATH EQUATIONS CANNOT BE PRINTED DIRECTLY TO LOG, A VARIABLE IS NEED
+	log var_name | This will output "var_name"'s data, which is input, meaning when this is run, input is the output. (Ironic don't you think?)
+	log fur dot two | This will output fur dot two (4.2) to log.
+	log Hello!3 | This will output Hello!3 to log. All characters are accepted in this statement.
+
+
+To do math: 
+	Add: It adds two numbers (ex, var_name eql one add treEND log var_nameEND ) This outputs fur (4) to log
+	Sub: It subtracts two numbers (ex, var_name eql fiv sub twoEND log var_nameEND) This outputs tre (3) to log
+	Mul: It multiplies two numbers (ex, var_name eql two mul oneEND log var_nameEND) This outputs one (1) to log
+	Div: It divides two numbers (ex, var_name eql fur div twoEND log var_nameEND) This outputs two (2) to log
+	Eql: It is used to represent the equals sign
+
+
+
